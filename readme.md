@@ -17,6 +17,13 @@ This is an example of vue with laravel 5.2 using browserify.
     npm install
     ```
 
+1. Make new .env file
+
+    ```
+    mv .env.example .env
+    php artisan key:generate
+    ```
+
 1. Complie assets
 
     ```
